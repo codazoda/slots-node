@@ -2,7 +2,15 @@ This package is about 12KB with no other requirements.
 
 Express adds 2.5MB of package code. That's hardly what I would consider **minimalist**.
 
-## Design
+This is a pet project. Although I'm aiming at some lofty goals, such as meeting the requirements of the Nevada Gaming Commission, I have not officially verified or certified this code.
+
+## Random Number Generator (rng.js)
+
+A web service that returns three random numbers between 0 and 255. It uses crypto.randomBytes() in order to meet regulation requirements. More teechnical information is available in the front-matter of the code.
+
+This service should run on localhost and listens on port 8088.
+
+## Physical Design
 
 **Display Screen**
 
